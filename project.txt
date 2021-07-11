@@ -1,0 +1,12 @@
+Githup Link:
+
+
+Instructions:
+	-->install dependencies
+	-->npm run both (command for running project)
+
+
+Group Members:
+	-->Muhammad Malook
+	-->Mahnoor
+	-->Sumia
