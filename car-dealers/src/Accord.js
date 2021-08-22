@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Card, CardColumns, Container, Row, Col } from "react-bootstrap"
 import Button from '@material-ui/core/Button';
 import { useHistory } from "react-router";
+import './index.css'
 
 
 const Accord = () => {
@@ -32,7 +33,7 @@ useEffect(  ()=>
                 {details.map(itm => {
                     return (
                         <div className="col-sm-4 mt-4 ">
-                                <Card style={{ width: '30rem' }}>
+                                <Card style={{ width: '30rem' }} className="anim">
                                     <Card.Img variant="top" src={itm.photo} width={418} height={255} />
                                     <Card.Body>
                                         <Card.Title>Car Name: {itm.name}</Card.Title>

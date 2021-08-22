@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {BrowserRouter as Router,
     Switch,Route,Link} from 'react-router-dom';
+import './index.css'
 
 const FooterContainer=styled.footer`
  .footer-middle{
@@ -22,7 +23,7 @@ ul li: hover{
 function Footer()
 {
     return(
-        <FooterContainer className="main-footer">
+<FooterContainer className="main-footer">
         <div className="footer-middle">
 
     <div className="container">
